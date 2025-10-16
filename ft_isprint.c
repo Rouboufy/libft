@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: roubs </var/spool/mail/roubs>              +#+  +:+       +#+        */
+/*   By: blanglai <blanglai@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/16 14:14:29 by roubs             #+#    #+#             */
-/*   Updated: 2025/10/16 14:14:34 by roubs            ###   ########.fr       */
+/*   Created: 2025/10/16 20:25:18 by blanglai          #+#    #+#             */
+/*   Updated: 2025/10/16 20:27:01 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 
