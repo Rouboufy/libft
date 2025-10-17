@@ -3,20 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blanglai <blanglai@student.42tokyo.jp      +#+  +:+       +#+        */
+/*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:23:51 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/16 20:23:58 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/17 18:57:35 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_bzero(void *r, unsigned long n) {
-    unsigned char* p;
-    p = r;
-    while (n--) {
-       *p++ = 0; 
-    }
-}
+void	ft_bzero(void *r, unsigned long n)
+{
+	unsigned char	*p;
 
+	p = r;
+	while (n--)
+	{
+		*p++ = 0;
+	}
+}

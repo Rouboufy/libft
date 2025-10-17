@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blanglai <blanglai@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 17:16:31 by blanglai          #+#    #+#             */
-/*   Updated: 2025/09/17 17:28:21 by blanglai         ###   LAUSANNE.ch       */
+/*   Updated: 2025/10/17 18:57:28 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

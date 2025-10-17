@@ -3,19 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blanglai <blanglai@student.42tokyo.jp      +#+  +:+       +#+        */
+/*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:25:18 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/16 20:27:01 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/17 18:57:24 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
 
-int ft_isprint(int n){
-    if (n >= 32 && n <= 126){
-        return(1);
-    }
-    return (0);
+int	ft_isprint(int n)
+{
+	if (n >= 32 && n <= 126)
+	{
+		return (1);
+	}
+	return (0);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: blanglai <blanglai@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/16 17:38:34 by blanglai          #+#    #+#             */
-/*   Updated: 2025/09/17 15:41:32 by blanglai         ###   LAUSANNE.ch       */
+/*   Updated: 2025/10/17 18:57:30 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
