@@ -1,33 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: blanglai <blanglai@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/17 21:30:30 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/20 13:10:16 by roubs            ###   ########.fr       */
+/*   Created: 2025/10/20 16:45:04 by blanglai          #+#    #+#             */
+/*   Updated: 2025/10/20 17:42:43 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlcat(char *dst, const char *src, size_t dstsize)
+char *ft_strchr(const char *s, int c)
 {
-	size_t src_len;
-	size_t dst_len;
-
-	src_len = ft_strlen(src);
-	dst_len = ft_strlen(dst);
-	
-	if(dst_len >= dstsize)
-		return (dstsize + src_len);
-	if (src_len < dstsize - dst_len)
-		ft_memcpy(dst + dst_len, src, src_len + 1);
-	else
+	while (*s)
 	{
-		ft_memcpy(dst + dst_len, src, dstsize - dst_len - 1);
-		dst[dstsize - 1] = '\0';
+		if ( *s == (char) c)
+			return ((char*) s);
+		
+		s++;
 	}
-	return (dst_len + src_len);
+	return ((char*) s);
 }
