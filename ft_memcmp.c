@@ -6,10 +6,11 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 16:08:04 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/22 16:24:21 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/22 17:30:11 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include <stddef.h>
 
 int ft_memcmp(const void *str1, const void *str2, size_t n)
