@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 14:38:09 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/20 15:19:04 by roubs            ###   ########.fr       */
+/*   Updated: 2025/10/24 16:26:08 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,5 @@ int ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
+INT32_MAX
+
