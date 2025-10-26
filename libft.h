@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 16:13:46 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/24 20:01:50 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/26 15:29:05 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 	#include <stddef.h>
 	#include <stdlib.h>
 	#  define SIZE_MAX		(18446744073709551615UL)
+	char *ft_strmapi(char *s, char (*f)(unsigned int, char));
 	void *ft_calloc(size_t n, size_t size);
 	char *ft_substr(char const *s, unsigned int start, size_t len);
 	char *ft_strdup(const char *s);
