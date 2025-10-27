@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/17 16:13:46 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/26 15:29:05 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:24:46 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,13 @@
 	#define LIBFT_H
 	#include <stddef.h>
 	#include <stdlib.h>
+	#include <unistd.h>
 	#  define SIZE_MAX		(18446744073709551615UL)
 	char *ft_strmapi(char *s, char (*f)(unsigned int, char));
 	void *ft_calloc(size_t n, size_t size);
 	char *ft_substr(char const *s, unsigned int start, size_t len);
 	char *ft_strdup(const char *s);
+	char *ft_itoa(int n);
 	int ft_atoi(const char *nptr);
     int ft_isprint(int  c);
 	int ft_toupper(int	c);
