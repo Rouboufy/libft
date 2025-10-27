@@ -6,20 +6,19 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 21:21:54 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/27 21:27:31 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:52:13 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
-	char *s;
-	s = ft_itoa(n);
+	char	*s;
 
-	while (*s) 
+	s = ft_itoa(n);
+	while (*s)
 	{
 		write(fd, &s, 1);
 	}
-
 }

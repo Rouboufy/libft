@@ -6,12 +6,11 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:49:50 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/17 20:01:33 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:49:45 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

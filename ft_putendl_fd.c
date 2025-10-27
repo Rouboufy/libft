@@ -6,14 +6,13 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 21:18:03 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/27 21:20:35 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:52:06 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
-void ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
 	while (*s)
 	{

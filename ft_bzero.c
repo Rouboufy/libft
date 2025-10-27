@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:23:51 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/24 15:00:50 by roubs            ###   ########.fr       */
+/*   Updated: 2025/10/27 21:50:13 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_bzero(void *r, size_t n)
 {
 	unsigned char	*p;
 
-	p = (unsigned char *) r;
+	p = (unsigned char *)r;
 	while (n--)
 	{
 		*p++ = 0;

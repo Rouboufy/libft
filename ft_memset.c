@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 12:44:49 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/26 13:32:04 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:51:46 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,3 @@ void	*ft_memset(void *ptr, int x, size_t n)
 	}
 	return (ptr);
 }
-

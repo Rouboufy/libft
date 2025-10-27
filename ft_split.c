@@ -6,13 +6,11 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/26 09:31:06 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/26 11:02:52 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:52:34 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 static int	word_count(const char *s, char c)
 {
