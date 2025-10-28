@@ -6,12 +6,11 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 16:55:27 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/27 21:53:38 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 16:14:27 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
