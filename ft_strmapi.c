@@ -6,13 +6,13 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/26 15:03:30 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/27 22:03:53 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 09:30:36 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strmapi(char *s, char (*f)(unsigned int, char))
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char	*res;
 	int		i;

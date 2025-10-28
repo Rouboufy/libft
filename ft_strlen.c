@@ -6,13 +6,13 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:27:35 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/17 18:57:09 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 09:27:28 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(const char *str)
+size_t ft_strlen(const char *str)
 {
 	int	i;
 

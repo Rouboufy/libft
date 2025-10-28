@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 21:18:03 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/27 21:52:06 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 09:23:22 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_putendl_fd(char *s, int fd)
 {
 	while (*s)
 	{
-		write(fd, &s, 1);
+		write(fd, s++, 1);
 	}
 	write(fd, "\n", 1);
 }

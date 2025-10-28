@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 21:21:54 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/27 21:52:13 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 09:23:48 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,6 @@ void	ft_putnbr_fd(int n, int fd)
 	s = ft_itoa(n);
 	while (*s)
 	{
-		write(fd, &s, 1);
+		write(fd, s++, 1);
 	}
 }
