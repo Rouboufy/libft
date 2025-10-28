@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 16:45:04 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/28 09:43:06 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 10:14:59 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,12 @@
 char	*ft_strchr(const char *s, int c)
 {
 	while (*s)
-	{	
+	{
 		if (*s == (char)c)
 			return ((char *)s);
 		s++;
 	}
-	if ((char) c == '\0')
+	if ((char)c == '\0')
 		return ((char *)s);
 	return (NULL);
 }

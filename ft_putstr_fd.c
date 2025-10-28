@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 21:14:34 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/28 09:24:08 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 10:12:59 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (!s)
+		return ;
 	while (*s)
 	{
 		write(fd, s++, 1);
