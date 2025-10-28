@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 21:21:54 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/28 09:23:48 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/10/28 09:56:20 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,15 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	char	*s;
+	long	nbr;
 
-	s = ft_itoa(n);
-	while (*s)
+	nbr = n;
+	if (nbr < 0)
 	{
-		write(fd, s++, 1);
+		ft_putchar_fd('-', fd);
+		nbr = -nbr;
 	}
+	if (nbr >= 10)
+		ft_putnbr_fd(nbr / 10, fd);
+	ft_putchar_fd((nbr % 10) + '0', fd);
 }
