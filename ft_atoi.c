@@ -11,12 +11,13 @@
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 static int	issign(const char *nptr, int *i);
 
 int	ft_atoi(const char *nptr)
 {
-	int	res;
+	long res;
 	int	i;
 	int	sign;
 
@@ -48,4 +49,12 @@ static int	issign(const char *nptr, int *i)
 	else if (nptr[*i] == '+')
 		(*i)++;
 	return (sign);
+}
+
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	printf("%d\n", atoi(argv[1]));
+	printf("%d\n",ft_atoi(argv[1]));
 }
