@@ -6,7 +6,7 @@
 /*   By: blanglai <blanglai@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 21:06:24 by blanglai          #+#    #+#             */
-/*   Updated: 2025/10/31 18:36:51 by blanglai         ###   ########.fr       */
+/*   Updated: 2025/11/11 16:38:40 by blanglai         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,10 +51,10 @@ static int	issign(const char *nptr, int *i)
 	return (sign);
 }
 
-#include <stdio.h>
+//#include <stdio.h>
 
-int main(int argc, char **argv)
-{
-	printf("%d\n", atoi(argv[1]));
-	printf("%d\n",ft_atoi(argv[1]));
-}
+//int main(int argc, char **argv)
+//{
+//	printf("%d\n", atoi(argv[1]));
+//	printf("%d\n",ft_atoi(argv[1]));
+//}
